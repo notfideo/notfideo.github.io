@@ -15,14 +15,14 @@ body {
         -webkit-transform-style: preserve-3d;
                 transform-style: preserve-3d;
                 padding-left: 50vw;
-                padding-top: 80vh;
+                padding-top: 17vh;
 
       }
       #ui .text {
         position: absolute;
-        font-size: 10rem;
+        font-size: 20rem;
         color: #fff;
-        line-height: 10rem;
+        line-height: 20rem;
         font-family: "Anton", sans-serif;
         padding: 20px 0;
         mix-blend-mode: screen;
