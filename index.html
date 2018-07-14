@@ -5,14 +5,22 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="style2.css">
         <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="normalize.css">
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia" rel="stylesheet">
         <script type="text/javascript" src="http://w.soundcloud.com/player/api.js"> </script>
     </head>
 
     <body>
 
-        <div style="position: absolute; display:none">
-        <iframe id="scplayer" style="position:relative" width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/559548015&color=%230e0e0e&auto_play=true&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
+        <div style=
+        "position: relative;
+        left: 134.8%;
+        top: 0.5%;
+        transform: translate(-50%, 0);
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);">
+        <iframe id="scplayer" style="position: absolute;" width="15%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/559548015&color=%230e0e0e&auto_play=true&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
         </div>
 
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -52,7 +60,7 @@
           </h1>
 
             <script type="text/javascript">
-    
+
                 //get the id of the player iframe or inject it using chrome
                 var id = 'scplayer',
                     widgetIframe = document.getElementById(id),
@@ -63,5 +71,74 @@
                 }, 1500);
             </script>
 
+            <div class="text2">
+                <marquee width="1900" height="100">
+                    <a href="http://steamcommunity.com/profiles/76561198032367567">fideo</a> ;
+                    <a href="http://steamcommunity.com/profiles/76561197974271389">stah</a> ;
+                    <a href="http://steamcommunity.com/profiles/76561198117156673">hsX</a> 
+                </marquee>
+            </div>
+
+                <style>
+                    .text2
+                    {
+                        position: absolute;
+                        left: 50%;
+                        transform: translate(-50%, 0);
+                        -webkit-transform: translate(-50%, 0);
+                        -ms-transform: translate(-50%, 0);
+                        bottom: 20px;
+                        z-index: 99999;
+                        color: white;
+                        font-size: 100px;
+                        font-family: 'UnifrakturMaguntia', cursive;
+                        text-decoration: none;
+                        -webkit-animation: pulsate 3s ease-out;
+                        -webkit-animation-iteration-count: infinite; 
+                        opacity: 0.5;
+                        }
+                        @-webkit-keyframes pulsate {
+                        0% { 
+                        opacity: 0.5;
+                        }
+                        50% { 
+                        opacity: 1.0;
+                        }
+                        100% { 
+                        opacity: 0.5;
+                        }
+                    }
+                    .a 
+                    { 
+                        color: inherit; 
+                        text-decoration: none;
+                    }
+                    /* unvisited link */
+                    a:link {
+                        color: white;
+                        text-decoration: none;
+                    }
+                    
+                    /* visited link */
+                    a:visited {
+                        color: white;
+                        text-decoration: none;
+                    }
+                    
+                    /* mouse over link */
+                    a:hover {
+                        background-color: grey;
+                        color: white;
+                        text-decoration: none;
+                    }
+                    
+                    /* selected link */
+                    a:active {
+                        background-color: grey;
+                        color: white;
+                        text-decoration: none;
+                    }
+
+                </style>
         </body>
 </html>
